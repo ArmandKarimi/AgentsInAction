@@ -1,4 +1,10 @@
+# environment variables
 .env
+
 __pycache__/
 *.pyc
 .DS_Store
+
+# Python virtual environments
+myvenv/
+myenv
