@@ -39,7 +39,7 @@ def ask_chatgpt(user_message):
     try:
         # Send the entire history
         response = client.chat.completions.create(
-            model = "gpt-4-1106-preview",
+            model = "gpt-4o-mini-2024-07-18",
             messages = message_history,
             temperature = 0.7,
             max_tokens = 500,

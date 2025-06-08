@@ -3,3 +3,11 @@ numpy
 python-dotenv
 openai
 
+# chapter 04 - multiagent systems
+autogenstudio
+pyautogen
+crewai[tools]
+python-dotenv
+langchain
+
+
