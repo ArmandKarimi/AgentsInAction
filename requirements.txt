@@ -6,6 +6,7 @@ openai
 # chapter 04 - multiagent systems
 autogenstudio
 pyautogen
+agentops
 crewai[tools]
 python-dotenv
 langchain

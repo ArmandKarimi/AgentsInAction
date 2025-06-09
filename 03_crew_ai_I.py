@@ -1,8 +1,9 @@
 from crewai import Agent, Crew, Process, Task
+import agentops # tool to track agent operations and llm calls
 from dotenv import load_dotenv
 
 load_dotenv()
-
+agentops.init()
 
 # Agent: History Researcher
 history_research = Agent(
